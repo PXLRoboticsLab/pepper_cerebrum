@@ -1,0 +1,13 @@
+<launch>
+    <include file='$(find tts4ros)/tts.launch'/>
+    
+    <include file='$(find stt4ros)/stt.launch'/>
+
+    <include file='$(find ros_yolov3)/bin/yolo.launch'>
+        <arg name='device'  value='pepper'/>
+        <arg name='algorithm'  value='snicker'/>
+        <arg name='nao_ip' value='192.168.3.172'/>
+        <arg name='network_interface' value='wlx10feed1816e8'/>
+    </include>
+    <node pkg='pepper_cerebrum' type='executive.py' name='pepper_cerebrum'/>
+</launch>
