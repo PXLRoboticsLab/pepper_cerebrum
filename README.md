@@ -7,7 +7,8 @@ This node is made so that we can ask Pepper if there are any snickers. Pepper wi
 If you want to use this node you will also need to install the following projects.
 - Speech-to-text: https://github.com/PXLRoboticsLab/STT4ROS
 - Text-to-speech: https://github.com/PXLRoboticsLab/TTS4ROS
-- ROS_yolo: https://github.com/PXLRoboticsLab/darknet
+- ROS_yolo: https://github.com/PXLRoboticsLab/darknet 
+
 And for these to work with pepper you will also need to install naoqi. A guide for this can be found [here](https://github.com/PXLRoboticsLab/ROS_Pepper/blob/master/ROS-Pepper.md)
 
 ### Start the node
