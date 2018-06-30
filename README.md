@@ -21,13 +21,12 @@ If you want to start all the nodes at once, you can use the following command: \
 
 ## What is what
 ### bin folder
-In this folder there are two launch files for ROS. The launch file demo will start all the necesarry nodes if you have them on your computer.
-The launch file test only start the pepper cerebrum executive and the ros_yolo node.
+In this folder there are two launch files for ROS. The launch file demo will start all the necesarry nodes if you have them on your computer. The launch file test only start the pepper cerebrum executive and the ros_yolo node.
 
 ### src folder
 In here you can find the python file executive.py which is the brain that let's everything work together.
 
 ## Made by
-Niels Debrier (Junior)
-PXL University College & Craftworkz
+Niels Debrier (Junior) \
+PXL University College & Craftworkz \
 June 2018
