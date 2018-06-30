@@ -26,3 +26,8 @@ The launch file test only start the pepper cerebrum executive and the ros_yolo n
 
 ### src folder
 In here you can find the python file executive.py which is the brain that let's everything work together.
+
+## Made by
+Niels Debrier (Junior)
+PXL University College & Craftworkz
+June 2018
